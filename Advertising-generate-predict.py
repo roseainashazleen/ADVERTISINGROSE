@@ -29,4 +29,4 @@ loaded_model = pickle.load(open("Sales Advertising.h5", "rb")) #rb: read binary
 pred=loaded_model.predict(df)
 
 st.subheader('Sales')
-st.write(df)
+st.write(pred)
